@@ -64,7 +64,7 @@ export default class VirtualKeyboard extends Component {
 				{this.Row([4, 5, 6])}
 				{this.Row([7, 8, 9])}
 				<View style={[styles.row, this.props.rowStyle]}>
-					{this.renderDecimal()}
+					{this.Cell("00")}
 					{this.Cell(0)}
 					{this.Backspace()}
 				</View>
